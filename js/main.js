@@ -11,14 +11,15 @@ function onYouTubeIframeAPIReady() {
             onReady: initialize
         }
     });
+    console.log('ssdf2222');
 }
 
 
 function initialize(){
+    console.log('ssdfdsf');
     $('#play').on('click', function () {
         $('.main-video img, #play').fadeOut(300);
-            player.playVideo();    
-        
+            player.playVideo();
     });
 }
 
